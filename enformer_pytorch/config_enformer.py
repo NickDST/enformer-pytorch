@@ -8,7 +8,7 @@ class EnformerConfig(PretrainedConfig):
         dim = 1536,
         depth = 11,
         heads = 8,
-        output_heads = dict(human = 5313, mouse= 1643),
+        output_heads = dict(human = 5313), #, mouse= 1643
         target_length = 896,
         attn_dim_key = 64,
         dropout_rate = 0.4,
